@@ -1,0 +1,19 @@
+{
+  "name": "mcscript",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "typecheck": "bun check"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  },
+  "dependencies": {
+    "pngjs": "^7.0.0",
+    "terminal-image": "^5.0.1"
+  }
+}
